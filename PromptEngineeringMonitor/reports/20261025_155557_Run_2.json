@@ -1,0 +1,27 @@
+{
+  "report_id": "20261025_155557_Run_2",
+  "timestamp": "2026-10-25T15:55:57",
+  "label": "Run 2",
+  "source": "Google AI Mode",
+  "user_inputs": {
+    "age": 50,
+    "activity": "Moderately active",
+    "goal": "Support healthy blood-sugar management",
+    "allergies": "ghee",
+    "dislikes": "None specified",
+    "cooking_time": 30,
+    "medical": "Insulin resistance and prediabetes; no medical outcome guarantees"
+  },
+  "prompt": "# Reusable Prompt: 7-Day Healthy South Indian Vegetarian Meal Plan\n\n## ROLE\nYou are a practical meal-planning assistant specialising in balanced South Indian vegetarian meals. Provide general educational suggestions, not medical diagnosis or treatment.\n\n## FOR — EDITABLE USER DETAILS\n- Age: 50\n- Location: Chennai, Tamil Nadu, India\n- Diet: Vegetarian; dairy allowed; no eggs\n- Activity level: Moderately active\n- Goal: Support healthy blood-sugar management\n- Allergies: ghee\n- Disliked foods: None specified\n- Household size: 1 adult\n- Maximum cooking time per meal: 30 minutes\n- Ingredient preference: Affordable, locally available South Indian ingredients\n- Medical considerations: Insulin resistance and prediabetes; no medical outcome guarantees\n\n## CONSTRAINTS\n- Plan Monday through Sunday.\n- Include exactly four meals daily: breakfast, lunch, snack, and dinner.\n- Use familiar South Indian vegetarian dishes and practical ingredients.\n- Include a named dish, portion size, and brief preparation note for every meal.\n- Include variety in protein sources, vegetables, fibre-rich foods, and carbohydrates.\n- Respect all allergies, dislikes, dietary restrictions, and cooking-time limits.\n- Do not promise medical outcomes or recommend extreme dietary restrictions.\n\n## OUTPUT FORMAT\nReturn one Markdown table with exactly these columns:\n| Day | Meal | Dish | Portion | Preparation note |\n\nProvide exactly 28 data rows: seven days multiplied by four meals.\nEach day must have breakfast, lunch, snack, and dinner exactly once.\nAfter the table, add a section titled Planning Notes.\n\n## AVOID\nMeat, fish, seafood, eggs, specified allergens, and disliked foods.\nAvoid vague dish names, expensive specialty ingredients, and unsupported medical claims.\n\n## FINAL QUALITY CHECK\nVerify all seven days, 28 meal rows, four meals per day, portions, preparation notes, and user restrictions before answering.\n",
+  "answer": "# Reusable Prompt: 7-Day Healthy South Indian Vegetarian Meal Plan\n\n## ROLE\nYou are a practical meal-planning assistant specialising in balanced South Indian vegetarian meals. Provide general educational suggestions, not medical diagnosis or treatment.\n\n## FOR — EDITABLE USER DETAILS\n- Age: 38\n- Location: Chennai, Tamil Nadu, India\n- Diet: Vegetarian; dairy allowed; no eggs\n- Activity level: Moderately active\n- Goal: Support healthy blood-sugar management\n- Allergies: None specified\n- Disliked foods: None specified\n- Household size: 1 adult\n- Maximum cooking time per meal: 30 minutes\n- Ingredient preference: Affordable, locally available South Indian ingredients\n- Medical considerations: Insulin resistance and prediabetes; no medical outcome guarantees\n\n## CONSTRAINTS\n- Plan Monday through Sunday.\n- Include exactly four meals daily: breakfast, lunch, snack, and dinner.\n- Use familiar South Indian vegetarian dishes and practical ingredients.\n- Include a named dish, portion size, and brief preparation note for every meal.\n- Include variety in protein sources, vegetables, fibre-rich foods, and carbohydrates.\n- Respect all allergies, dislikes, dietary restrictions, and cooking-time limits.\n- Do not promise medical outcomes or recommend extreme dietary restrictions.\n\n## OUTPUT FORMAT\nReturn one Markdown table with exactly these columns:\n| Day | Meal | Dish | Portion | Preparation note |\n\nProvide exactly 28 data rows: seven days multiplied by four meals.\nEach day must have breakfast, lunch, snack, and dinner exactly once.\nAfter the table, add a section titled Planning Notes.\n\n## AVOID\nMeat, fish, seafood, eggs, specified allergens, and disliked foods.\nAvoid vague dish names, expensive specialty ingredients, and unsupported medical claims.\n\n## FINAL QUALITY CHECK\nVerify all seven days, 28 meal rows, four meals per day, portions, preparation notes, and user restrictions before answering.\n",
+  "checks": {
+    "All seven days included": false,
+    "Exactly 28 valid meal rows": false,
+    "Each day has exactly four meals": false,
+    "All four meal types are present": false,
+    "Portion sizes appear in the table": false,
+    "Preparation notes appear in the table": false,
+    "Planning Notes section present": true,
+    "Allergy compliance needs manual review": false
+  }
+}

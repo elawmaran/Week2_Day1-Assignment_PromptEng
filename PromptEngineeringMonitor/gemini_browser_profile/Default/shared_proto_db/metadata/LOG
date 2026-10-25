@@ -1,2 +1,3 @@
-2026/10/25-15:17:49.487 c3177 Creating DB /Users/elaw/Documents/GitHub/Week2_Day1 Assignment_PromptEng/PromptEngineeringMonitor/gemini_browser_profile/Default/shared_proto_db/metadata since it was missing.
-2026/10/25-15:17:49.489 c3177 Reusing MANIFEST /Users/elaw/Documents/GitHub/Week2_Day1 Assignment_PromptEng/PromptEngineeringMonitor/gemini_browser_profile/Default/shared_proto_db/metadata/MANIFEST-000001
+2026/10/25-15:44:28.055 cab0c Reusing MANIFEST /Users/elaw/Documents/GitHub/Week2_Day1 Assignment_PromptEng/PromptEngineeringMonitor/gemini_browser_profile/Default/shared_proto_db/metadata/MANIFEST-000001
+2026/10/25-15:44:28.056 cab0c Recovering log #3
+2026/10/25-15:44:28.056 cab0c Reusing old log /Users/elaw/Documents/GitHub/Week2_Day1 Assignment_PromptEng/PromptEngineeringMonitor/gemini_browser_profile/Default/shared_proto_db/metadata/000003.log 
